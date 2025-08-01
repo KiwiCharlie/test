@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: CITIBIKE_ANALYTICS  # Your database name
+    schema: RAW                  # Your raw schema name
+    tables:
+      - name: citibike_raw        # The name of your Citibike raw table
+      - name: nyc_weather         # The name of your Weather raw table
